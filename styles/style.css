@@ -73,10 +73,11 @@ h2 {
     text-decoration: none;
 }
 
-.main-content {
-    height: 605px;
+.conteiner1 {
+    width: 100%;
+    height: 100%;
     background-image: url(../images/banner.png);
-    background-position: center;
+    /* background-position: ; */
     background-size: cover;
 }
 
@@ -88,9 +89,10 @@ h2 {
 div.conteiner1 {
     /* display: block; */
     flex: 1 1 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    width: 1000px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+    width: 100%;
+    height: 660px;
 }
 
 .main-img-logo {
@@ -136,7 +138,7 @@ div.conteiner1 a {
 .body-page1 {
     /* background-image: url(../images/Vid_iz_okna_2.jpg);
     background-size: cover; */
-    height: 500px;
+    height: 550px;
     margin-top: 550px;
     padding: 60px 0px;
 }
@@ -176,7 +178,7 @@ div.conteiner1 a {
     /* background-image: url(../images/Blue-lagune.jpg);
     background-size: cover; */
     background-color: #f7f7f7;
-    height: 500px;
+    height: 550px;
     /* margin-top: -10px; */
     padding: 60px 0px;
 }
@@ -195,7 +197,7 @@ div.conteiner1 a {
 
 .page2-content1 {
     width: 45%;
-    height: 30%;
+    /* height: 30%; */
     text-align: justify;
     /* padding: 10px; */
     margin-left: 50px;
@@ -223,7 +225,7 @@ div.conteiner1 a {
 
 .page3-content1 {
     width: 45%;
-    height: 30%;
+    /* height: 30%; */
     text-align: justify;
     /* padding: 10px; */
     margin-left: 50px;
@@ -231,7 +233,7 @@ div.conteiner1 a {
 
 .page3-content2 {
     width: 30%;
-    /* height: 100%; */
+    height: 250px;
     display: inline-flex;
     margin: 20px 110px;
 }
@@ -239,8 +241,8 @@ div.conteiner1 a {
 .body-page3 {
     /* background-image: url(../images/Blue-sea.jpg);
     background-size: cover; */
-    height: 605px;
-    margin-top: -10px;
+    height: 650px;
+    /* margin-top: -10px; */
 }
 
 .body-nav1 {
@@ -264,7 +266,8 @@ div.conteiner1 a {
 
 .form-factor {
     display: flex;
-    height: 590px;
+    width: 1000px;
+    height: 500px;
     background-color: #f7f7f7;
 }
 
@@ -286,7 +289,7 @@ div.conteiner1 a {
 }
 
 .form-body {
-    width: 400px;
+    widows: 1000px;
     height: 400px;
     top: 240px;
     left: 50%;
@@ -301,7 +304,8 @@ div.conteiner1 a {
 }
 
 .send-form {
-    left: 685px;
+    direction: flex;
+    left: 740px;
     height: 40px;
     top: 420px;
     border-radius: 10px;
@@ -324,8 +328,9 @@ footer {
     position: relative;
     background-color: #000000;
     color: #ffffff;
-    bottom: -2390px;
-    height: 100px;
+    bottom: -1px;
+    height: 110px;
+    /* top: 1000px; */
 }
 
 footer .footer-img {
