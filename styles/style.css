@@ -1,5 +1,5 @@
 .body_font-prop {
-    display: inline;
+    display: flex;
     font: 16px/1.5 Arial;
     color: #303846;
 }
@@ -29,7 +29,7 @@ h2 {
     position: fixed;
     height: 60px;
     width: 1280px;
-    margin-top: -25px;
+    /* margin-top: -25px; */
     background-color: #fff;
 }
 
@@ -72,7 +72,7 @@ h2 {
 }
 
 .main-content {
-    height: 605px;
+    height: 100%;
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
@@ -200,6 +200,7 @@ div.conteiner1 a {
 
 .page2-content2 {
     width: 30%;
+    height: 100%;
     display: inline-flex;
     /* margin-right: 100px;
     margin-left: 100px; */
@@ -228,6 +229,7 @@ div.conteiner1 a {
 
 .page3-content2 {
     width: 30%;
+    height: 100%;
     display: inline-flex;
     margin-right: 20%;
 }
