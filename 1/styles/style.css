@@ -1,0 +1,378 @@
+                .body_font-prop {
+                    font: 16px/1.5 Arial;
+                    color: #303846;
+                    display: inline;
+                }
+                
+                h1 {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    font-size: 3em;
+                }
+                
+                h2 {
+                    margin-top: 0;
+                    margin-bottom: 0.5;
+                    font-size: 1.8em;
+                }
+                
+                .header-img {
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 5px;
+                    margin-left: 5px;
+                    margin-right: 10px;
+                    float: left;
+                }
+                
+                .header-style {
+                    height: 60px;
+                    width: 1280px;
+                    margin-top: -25px;
+                    background-color: #fff;
+                    position: relative;
+                }
+                
+                .header-style>div:nth-child(1)>p:nth-child(2) {
+                    float: left;
+                    width: max-content;
+                }
+                
+                .header-style a {
+                    color: #000000;
+                    text-decoration: none;
+                }
+                
+                .nav ul {
+                    float: right;
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                }
+                
+                .nav>ul {
+                    display: inline-flex;
+                }
+                
+                .nav li {
+                    right: 40px;
+                    padding: 15px 10px;
+                    cursor: pointer;
+                }
+                
+                .nav a {
+                    text-decoration: none;
+                    color: #000000;
+                }
+                
+                .nav .nav-title {
+                    color: #000000;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+                
+                .main-content {
+                    height: 600px;
+                    background-image: url(images/banner.png);
+                    background-position: center;
+                    background-size: cover;
+                }
+                
+                .main-img-spase {
+                    height: 700px;
+                    width: 1270px;
+                }
+                
+                div.conteiner1 {
+                    display: block;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                    width: 1000px;
+                }
+                
+                .main-img-logo {
+                    width: 150px;
+                    height: 150px;
+                    top: 30%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%)
+                }
+                
+                .conteiner1-h1 {
+                    color: #ffffff;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%)
+                }
+                
+                .conteiner1-h4 {
+                    color: #ffffff;
+                    top: 55%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%)
+                }
+                
+                div.conteiner1 a {
+                    width: 120px;
+                    margin-top: 10px;
+                    transform: translate(-50%, -50%);
+                    border: 1px solid #ffffff;
+                    border-radius: 10px;
+                    top: 65%;
+                    left: 50%;
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1em;
+                    padding: 5px 10px 6px 10px;
+                }
+                
+                .body-page1 {
+                    background-image: url(images/Vid_iz_okna_2.jpg);
+                    background-size: cover;
+                    height: 610px;
+                    margin-top: 410px;
+                }
+                
+                .page1 {
+                    width: 1000px;
+                    display: flex;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                    color: #ffffff;
+                }
+                
+                .page1-content1 {
+                    width: 320px;
+                    margin: 0 auto;
+                    text-align: justify;
+                    padding: 10px;
+                }
+                
+                .page1-content2 {
+                    width: 320px;
+                    margin: 0 auto;
+                    text-align: justify;
+                    padding: 10px;
+                }
+                
+                .page1-content3 {
+                    width: 360px;
+                    margin: 0 auto;
+                    text-align: justify;
+                    padding: 10px;
+                }
+                
+                .body-page2 {
+                    background-image: url(images/Blue-lagune.jpg);
+                    background-size: cover;
+                    height: 600px;
+                }
+                
+                .page2 {
+                    width: 1000px;
+                    display: flex;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                    color: #000000;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                }
+                
+                .page2-content1 {
+                    width: 45%;
+                    height: 30%;
+                    text-align: justify;
+                    padding: 10px;
+                    margin-left: 50px;
+                }
+                
+                .page2-content2 {
+                    width: 30%;
+                    display: inline-flex;
+                    margin-right: 20%;
+                }
+                
+                .page3 {
+                    width: 1000px;
+                    display: flex;
+                    top: 50%;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                    color: #000000;
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+                }
+                
+                .page3-content1 {
+                    width: 45%;
+                    height: 30%;
+                    text-align: justify;
+                    padding: 10px;
+                    margin-left: 50px;
+                }
+                
+                .page3-content2 {
+                    width: 30%;
+                    display: inline-flex;
+                    margin-right: 20%;
+                }
+                
+                .body-page3 {
+                    background-image: url(images/Blue-sea.jpg);
+                    background-size: cover;
+                    height: 600px;
+                }
+                
+                .body-nav1 {
+                    width: 120px;
+                    height: 30px;
+                    border: 1px solid #ffffff;
+                    border-radius: 20px;
+                    display: flex;
+                    color: #ffffff;
+                }
+                
+                .body-nav1>a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    text-align: center;
+                    margin-left: 7px;
+                    margin-top: 4px;
+                    font-style: italic;
+                }
+                
+                .form-factor {
+                    height: 600px;
+                    background-color: #f7f7f7;
+                    display: flex;
+                    margin-top: 5px;
+                }
+                
+                .field {
+                    clear: both;
+                    text-align: right;
+                }
+                
+                label {
+                    float: left;
+                }
+                
+                .frame-info {
+                    width: 150px;
+                    height: 30px;
+                    border-width: 1px;
+                    background-color: #ffffff;
+                }
+                
+                .form-body {
+                    width: 400px;
+                    height: 400px;
+                    top: 200px;
+                    left: 50%;
+                    margin-right: -50%;
+                    transform: translate(-50%, -50%);
+                }
+                
+                .form-heading {
+                    padding-top: 50px;
+                    text-align: center;
+                    margin-bottom: 1px;
+                }
+                
+                .send-form {
+                    left: 685px;
+                    height: 40px;
+                    top: 440px;
+                    border-radius: 10px;
+                    color: #09d3ac;
+                    border: 1px solid #09d3ac;
+                    text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1em;
+                }
+                
+                .customer-info>div:nth-child(2)>p:nth-child(1)>lebel:nth-child(1) {
+                    float: left;
+                }
+                
+                .customer-info>div:nth-child(3)>p:nth-child(1)>lebel:nth-child(1) {
+                    float: left;
+                }
+                
+                fieldset.customer-info:nth-child(3)>legend:nth-child(1) {
+                    color: #09d3ac;
+                }
+                
+                fieldset.customer-info:nth-child(2)>legend:nth-child(1) {
+                    color: #09d3ac;
+                }
+                
+                .customer-info {
+                    border: 1px solid #09d3ac;
+                }
+                
+                footer {
+                    background-color: #000000;
+                    color: #ffffff;
+                    bottom: -2260px;
+                    position: relative;
+                    height: 92px;
+                }
+                
+                footer .footer-img {
+                    width: 50px;
+                    height: 50px;
+                    float: left;
+                    margin: 10px 10px 10px 10px;
+                }
+                
+                .footer-heading {
+                    font-size: 1em;
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+                
+                .project-doc {
+                    top: 12px;
+                    right: 540px;
+                }
+                
+                footer .about-build {
+                    float: right;
+                    right: 40px;
+                    top: 12px;
+                }
+                
+                .project-build {
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+                
+                .footer-moon-sea {
+                    font-size: 1em;
+                    color: #ffffff;
+                    text-decoration: none;
+                    top: 23px;
+                }
+                
+                .footer-year {
+                    top: 16px;
+                    left: -60px;
+                }
+                
+                .position-rel {
+                    position: relative;
+                }
+                
+                .position-absolute {
+                    position: absolute;
+                }

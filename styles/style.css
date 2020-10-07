@@ -1,0 +1,378 @@
+.body_font-prop {
+    display: inline;
+    font: 16px/1.5 Arial;
+    color: #303846;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0.5;
+    font-size: 1.8em;
+}
+
+.header-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.header-style {
+    position: fixed;
+    height: 60px;
+    width: 1280px;
+    margin-top: -25px;
+    background-color: #fff;
+}
+
+.header-style>div:nth-child(1)>p:nth-child(2) {
+    float: left;
+    width: max-content;
+}
+
+.header-style a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav>ul {
+    display: inline-flex;
+}
+
+.nav li {
+    right: 40px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav .nav-title {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-content {
+    height: 605px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-img-spase {
+    height: 700px;
+    width: 1270px;
+}
+
+div.conteiner1 {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 1000px;
+}
+
+.main-img-logo {
+    width: 150px;
+    height: 150px;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.conteiner1-h1 {
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.conteiner1-h4 {
+    color: #ffffff;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+div.conteiner1 a {
+    width: 120px;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    top: 65%;
+    left: 50%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 10px 6px 10px;
+}
+
+.body-page1 {
+    /* background-image: url(../images/Vid_iz_okna_2.jpg);
+    background-size: cover; */
+    height: 500px;
+    margin-top: 550px;
+    padding: 60px 0px;
+}
+
+.page1 {
+    display: flex;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.page1-content1 {
+    width: 320px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+.page1-content2 {
+    width: 320px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+.page1-content3 {
+    width: 360px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 10px;
+}
+
+.body-page2 {
+    /* background-image: url(../images/Blue-lagune.jpg);
+    background-size: cover; */
+    background-color: #f7f7f7;
+    height: 500px;
+    /* margin-top: -10px; */
+    padding: 60px 0px;
+}
+
+.page2 {
+    width: 1000px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    /* padding-top: 60px;
+    padding-bottom: 60px; */
+}
+
+.page2-content1 {
+    width: 45%;
+    height: 30%;
+    text-align: justify;
+    /* padding: 10px; */
+    /* margin-left: 50px; */
+}
+
+.page2-content2 {
+    width: 30%;
+    display: inline-flex;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    margin: 0 110px;
+}
+
+.page3 {
+    width: 1000px;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.page3-content1 {
+    width: 45%;
+    height: 30%;
+    text-align: justify;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.page3-content2 {
+    width: 30%;
+    display: inline-flex;
+    margin-right: 20%;
+}
+
+.body-page3 {
+    /* background-image: url(../images/Blue-sea.jpg);
+    background-size: cover; */
+    height: 605px;
+    margin-top: -10px;
+}
+
+.body-nav1 {
+    display: flex;
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.body-nav1>a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.form-factor {
+    display: flex;
+    height: 590px;
+    background-color: #f7f7f7;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+}
+
+.name-label {
+    float: left;
+}
+
+.frame-info {
+    width: 150px;
+    height: 30px;
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.form-body {
+    width: 400px;
+    height: 400px;
+    top: 240px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-heading {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.send-form {
+    left: 685px;
+    height: 40px;
+    top: 420px;
+    border-radius: 10px;
+    color: #09d3ac;
+    border: 1px solid #09d3ac;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form-name {
+    color: #09d3ac;
+}
+
+.customer-info {
+    border: 1px solid #09d3ac;
+}
+
+footer {
+    position: relative;
+    background-color: #000000;
+    color: #ffffff;
+    bottom: -2390px;
+    height: 100px;
+}
+
+footer .footer-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.footer-heading {
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-doc {
+    top: 12px;
+    right: 540px;
+}
+
+footer .about-build {
+    float: right;
+    right: 40px;
+    top: 12px;
+}
+
+.project-build a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-build {
+    margin-top: -3px;
+}
+
+.footer-moon-sea {
+    font-size: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    top: 23px;
+}
+
+.footer-year {
+    top: 16px;
+    left: -60px;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
